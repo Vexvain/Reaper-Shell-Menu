@@ -1,15 +1,6 @@
-############ # This menu is strictly Meant For DDoSing. 
-# if you would like anything added please contact me with the information below! 
-# I created this off of the Reaper ServerSide i created for QBOT and Mirai 
-# Instead of using it for a botnet i decided to use it as a menu for 
-# Amplifications aka IP Header Modifications 
-# Took a couple of hours bc i was side tracked but i hope you guys enjoy 
-# If you leech give credit and say your friend gave it to you or something 
-# dont steal my work and say its yours, k, thanks. 
-# currently creating a client for the Reaper Server Side i created. 
-# will be created soon 
-# if you want anything made personally dm me on discord @Vex#5966 or email me # sirnecrophage@gmail.com 
-# Enjoy! 
+############ # This menu is strictly meant for DDoSing. 
+# I created this off of the Reaper serverside
+# Instead of using it for a botnet, use it as a menu for amplifications/IP header modifications :) 
 ############ 
 #!/bin/bash 
 BLACK='\e[0;30m' 
