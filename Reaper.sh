@@ -1,5 +1,5 @@
 ############ # This menu is strictly meant for DDoSing. 
-# I created this off of the Reaper serverside
+# Created off of the Reaper serverside
 # Instead of using it for a botnet, use it as a menu for amplifications/IP header modifications :) 
 ############ 
 #!/bin/bash 
