@@ -35,36 +35,36 @@ echo -n -e "${BOLDWHITE}Loading the Reaper :)\r"
 sleep 2 
 echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}# ${BOLDWHITE}(5%)\r" 
 sleep 1 
-echo -n -e "${BOLDWHITE}Loading Files.. ${BOLDWHITE}[${PINK}### ${BOLDWHITE}(10%)\r" 
+echo -n -e "${LIGHTRED}Loading Files.. ${BOLDWHITE}[${PINK}### ${BOLDWHITE}(10%)\r" 
 sleep 1 
-echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}######## ${BOLDWHITE}(25%)\r"
+echo -n -e "${ORANGE}Loading Files.. ${BOLDWHITE}[${PINK}######## ${BOLDWHITE}(25%)\r"
 sleep 1
-echo -n -e "${BOLDWHITE}Loading Files.. ${BOLDWHITE}[${PINK}################## ${BOLDWHITE}(40%)\r"
+echo -n -e "${LIGHTYELLOW}Loading Files.. ${BOLDWHITE}[${PINK}################## ${BOLDWHITE}(40%)\r"
 sleep 1
-echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}############################## ${BOLDWHITE}(65%)\r"
+echo -n -e "${BRIGHTGREEN}Loading Files.. ${BOLDWHITE}[${PINK}############################## ${BOLDWHITE}(65%)\r"
 sleep 1
-echo -n -e "${BOLDWHITE}Loading Files.. ${BOLDWHITE}[${PINK}#################################### ${BOLDWHITE}(80%)\r"
+echo -n -e "${LIGHTBLUE}Loading Files.. ${BOLDWHITE}[${PINK}#################################### ${BOLDWHITE}(80%)\r"
 sleep 1
-echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}######################################### ${BOLDWHITE}(95%)\r"
+echo -n -e "${LIGHTMAGENTA}Loading Files.. ${BOLDWHITE}[${PINK}######################################### ${BOLDWHITE}(95%)\r"
 sleep 1
-echo -n -e "${BOLDWHITE}Loading Files.. ${BOLDWHITE}[${PINK}#############################################${WHITE}] (100%) ${BOLDWHITE}Finished" 
+echo -n -e "${PINK}Loading Files.. ${BOLDWHITE}[${PINK}#############################################${BOLDWHITE}] (100%) ${PINK}Finished" 
 sleep 2
 echo -ne '\n'
 echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}# ${BOLDWHITE}(5%)\r"
 sleep 1
-echo -n -e "${BOLDWHITE}Detecting IP Address... ${BOLDWHITE}[${PINK}#####${BOLDWHITE}(23%)\r"
+echo -n -e "${LIGHTMAGENTA}Detecting IP Address... ${BOLDWHITE}[${PINK}#####${BOLDWHITE}(23%)\r"
 sleep 1
-echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}###########${BOLDWHITE}(39%)\r"
+echo -n -e "${LIGHTBLUE}Detecting IP Address... ${BOLDWHITE}[${PINK}###########${BOLDWHITE}(39%)\r"
 sleep 1
-echo -n -e "${BOLDWHITE}Detecting IP Address... ${BOLDWHITE}[${PINK}###############${BOLDWHITE}(55%)\r"
+echo -n -e "${BRIGHTGREEN}Detecting IP Address... ${BOLDWHITE}[${PINK}###############${BOLDWHITE}(55%)\r"
 sleep 1
-echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}####################${BOLDWHITE}(71%)\r"
+echo -n -e "${LIGHTYELLOW}Detecting IP Address... ${BOLDWHITE}[${PINK}####################${BOLDWHITE}(71%)\r"
 sleep 1
-echo -n -e "${BOLDWHITE}Detecting IP Address... ${BOLDWHITE}[${PINK}#########################${BOLDWHITE}(77%)\r"
+echo -n -e "${ORANGE}Detecting IP Address... ${BOLDWHITE}[${PINK}#########################${BOLDWHITE}(77%)\r"
 sleep 2
-echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}###################################${BOLDWHITE}(95%)\r"
+echo -n -e "${LIGHTRED}Detecting IP Address... ${BOLDWHITE}[${PINK}###################################${BOLDWHITE}(95%)\r"
 sleep 1
-echo -n -e "${BOLDWHITE}Detecting IP Address... ${BOLDWHITE}[${PINK}#############################################${BOLDWHITE}] (100%) ${PINK}Finished"
+echo -n -e "${PINK}Detecting IP Address... ${BOLDWHITE}[${PINK}#############################################${BOLDWHITE}] (100%) ${PINK}Finished"
 sleep 2
 echo -ne '\n'
 echo -n -e "${BOLDWHITE}WELCOME TO THE ${PINK}REA${BOLDWHITE}PER${PINK}!"
@@ -88,8 +88,8 @@ echo -e "
                                        ${BOLDWHITE}888
 
               ${BOLDWHITE}**********************************************
-              ${WHITE}*                ${PINK}@${BOLDWHITE}VEXVAIN${WHITE}#0578               ${WHITE}*
-              ${PINK}**********************************************
+              ${PINK}*                ${PINK}@${BOLDWHITE}VEXVAIN${WHITE}#0578               ${PINK}*
+              ${BOLDWHITE}**********************************************
 
 " 
 echo -e " " 
@@ -99,7 +99,7 @@ echo -e " "
 echo -e " " 
 echo -e " " 
 echo -e " " 
-echo -e "${PINK}root${BOLDWHITE}@${PINK}Reaper${BOLDWHITE}:${PINK}~${BOLDWHITE}#${BOLDWHITE} \c" 
+echo -e "${PINK}root${BOLDWHITE}@${PINK}Rea${BOLDWHITE}per${BOLDWHITE}:${PINK}~${BOLDWHITE}#${BOLDWHITE} \c" 
 read answer 
 if [[ $answer == HELP ]] 
 then 
